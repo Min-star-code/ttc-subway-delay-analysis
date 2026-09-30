@@ -1,0 +1,12 @@
+{
+  "retrieved_utc": "2026-09-28T21:47:31.904584+00:00",
+  "year": 2025,
+  "source_urls": {
+    "events": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/996cfe8d-fb35-40ce-b569-698d51fc683b/resource/0b6e5c52-e993-46d6-8d74-8602ee224457/download/ttc-subway-delay-data-since-2025.csv",
+    "codes": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/996cfe8d-fb35-40ce-b569-698d51fc683b/resource/b2d8f5e0-0997-46b5-8abd-caa685a0290b/download/code-descriptions.csv"
+  },
+  "sha256": {
+    "events": "56e6c79c88530ef8f289fd93a8a31e8ebf10db57890bdbfd3286afe3fcb92fd3",
+    "codes": "30122b4eabf204ed5747fcff70cae41b748ec64e49007380166231d2abc2f45c"
+  }
+}

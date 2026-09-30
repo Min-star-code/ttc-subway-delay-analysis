@@ -1,0 +1,1835 @@
+{
+  "year": 2025,
+  "totals": {
+    "incidents": 25737,
+    "delay_minutes": 70768,
+    "positive_delay_incidents": 9095
+  },
+  "qa": {
+    "raw_rows": 25737,
+    "analyzed_rows": 25737,
+    "excluded_rows": 0,
+    "invalid_date_rows": 0,
+    "invalid_time_rows": 0,
+    "invalid_delay_rows": 0,
+    "negative_delay_rows": 0,
+    "zero_delay_rows": 16642,
+    "missing_line_rows": 77,
+    "multiple_line_rows": 354,
+    "other_line_rows": 8,
+    "missing_station_rows": 0,
+    "missing_code_rows": 0,
+    "unmapped_code_rows": 145
+  },
+  "by_cause": [
+    {
+      "cause": "DISORDERLY PATRON",
+      "incidents": 2944,
+      "delay_minutes": 7646
+    },
+    {
+      "cause": "INJURED/ILL CUSTOMER ON TRAIN - MEDICAL AID REFUSED",
+      "incidents": 841,
+      "delay_minutes": 4797
+    },
+    {
+      "cause": "UNAUTHORIZED AT TRACK LEVEL",
+      "incidents": 571,
+      "delay_minutes": 3917
+    },
+    {
+      "cause": "INJURED/ILL CUSTOMER ON TRAIN - TRANSPORTED",
+      "incidents": 412,
+      "delay_minutes": 3785
+    },
+    {
+      "cause": "SECURITY OTHER",
+      "incidents": 1679,
+      "delay_minutes": 3418
+    },
+    {
+      "cause": "OPTO (COMMUNICATIONS) TRAIN DOOR MONITORING",
+      "incidents": 1258,
+      "delay_minutes": 3406
+    },
+    {
+      "cause": "PAA - NO TROUBLE FOUND",
+      "incidents": 1367,
+      "delay_minutes": 2955
+    },
+    {
+      "cause": "WEATHER REPORTS / RELATED PROBLEMS",
+      "incidents": 211,
+      "delay_minutes": 2745
+    },
+    {
+      "cause": "WORK ZONES PROBLEMS - TRACK",
+      "incidents": 244,
+      "delay_minutes": 2333
+    },
+    {
+      "cause": "TRANSPORTATION OTHER",
+      "incidents": 451,
+      "delay_minutes": 1955
+    },
+    {
+      "cause": "ASSUALT / PATRON INVOLVED",
+      "incidents": 675,
+      "delay_minutes": 1759
+    },
+    {
+      "cause": "UNSANITARY VEHICLE",
+      "incidents": 418,
+      "delay_minutes": 1740
+    },
+    {
+      "cause": "PRIORITY ONE - TRAIN IN CONTACT WITH PERSON",
+      "incidents": 21,
+      "delay_minutes": 1690
+    },
+    {
+      "cause": "FIRE/SMOKE PLAN B - SOURCE TTC (TRACK LEVEL)",
+      "incidents": 46,
+      "delay_minutes": 1453
+    },
+    {
+      "cause": "TRACK SWITCH FAILURE - S/E/C RELATED PROBLEM",
+      "incidents": 60,
+      "delay_minutes": 1383
+    },
+    {
+      "cause": "MISCELLANEOUS OTHER",
+      "incidents": 937,
+      "delay_minutes": 1311
+    },
+    {
+      "cause": "RAIL RELATED PROBLEM",
+      "incidents": 187,
+      "delay_minutes": 1267
+    },
+    {
+      "cause": "DOOR PROBLEMS - DEBRIS RELATED",
+      "incidents": 202,
+      "delay_minutes": 1097
+    },
+    {
+      "cause": "Unmapped (PUTO)",
+      "incidents": 136,
+      "delay_minutes": 1092
+    },
+    {
+      "cause": "DOOR PROBLEMS RE:FAULTY EQUIPMENT",
+      "incidents": 189,
+      "delay_minutes": 994
+    },
+    {
+      "cause": "EQUIPMENT - NO TROUBLE FOUND",
+      "incidents": 157,
+      "delay_minutes": 861
+    },
+    {
+      "cause": "TRACTION POWER RAIL RELATED PROBLEMS",
+      "incidents": 6,
+      "delay_minutes": 813
+    },
+    {
+      "cause": "OPERATOR VIOLATED SIGNAL",
+      "incidents": 217,
+      "delay_minutes": 811
+    },
+    {
+      "cause": "EAS ACTIVATED - NO TROUBLE FOUND",
+      "incidents": 57,
+      "delay_minutes": 752
+    },
+    {
+      "cause": "MISCELLANEOUS TRANSPORTATION OTHER (EMPLOYEE NON-CHARGEABLE)",
+      "incidents": 161,
+      "delay_minutes": 717
+    },
+    {
+      "cause": "TRANSIT CONTROL RELATED - TOWER CONTROLLER ERROR",
+      "incidents": 83,
+      "delay_minutes": 713
+    },
+    {
+      "cause": "STRUCTURE RELATED PROBLEM",
+      "incidents": 13,
+      "delay_minutes": 558
+    },
+    {
+      "cause": "OPERATOR NOT IN POSTION",
+      "incidents": 118,
+      "delay_minutes": 537
+    },
+    {
+      "cause": "SIGNAL OR RELATED COMPONENTS FAILURE",
+      "incidents": 108,
+      "delay_minutes": 526
+    },
+    {
+      "cause": "SIGNALS - TRAIN STOPS",
+      "incidents": 100,
+      "delay_minutes": 502
+    },
+    {
+      "cause": "HELD BY POLICE - NON TTC RELATED",
+      "incidents": 79,
+      "delay_minutes": 493
+    },
+    {
+      "cause": "DOOR PROBLEMS - PASSENGER RELATED",
+      "incidents": 128,
+      "delay_minutes": 491
+    },
+    {
+      "cause": "BRAKES",
+      "incidents": 75,
+      "delay_minutes": 486
+    },
+    {
+      "cause": "WORK VEHICLE",
+      "incidents": 66,
+      "delay_minutes": 469
+    },
+    {
+      "cause": "ASSAULT / EMPLOYEE INVOLVED",
+      "incidents": 239,
+      "delay_minutes": 443
+    },
+    {
+      "cause": "SIGNALS AXLE COUNTER BLOCK FAILURE",
+      "incidents": 92,
+      "delay_minutes": 435
+    },
+    {
+      "cause": "SI SPEED CONTROL",
+      "incidents": 881,
+      "delay_minutes": 384
+    },
+    {
+      "cause": "UNABLE TO MAINTAIN SCHEDULE",
+      "incidents": 76,
+      "delay_minutes": 378
+    },
+    {
+      "cause": "RC&S OTHER",
+      "incidents": 59,
+      "delay_minutes": 378
+    },
+    {
+      "cause": "GRAFFITI / SCRATCHITI",
+      "incidents": 259,
+      "delay_minutes": 374
+    },
+    {
+      "cause": "DEBRIS AT TRACK LEVEL - NON-CONTROLLABLE",
+      "incidents": 33,
+      "delay_minutes": 324
+    },
+    {
+      "cause": "SPEED CONTROL EQUIPMENT",
+      "incidents": 490,
+      "delay_minutes": 314
+    },
+    {
+      "cause": "T-1 PROPULSION SYSTEM",
+      "incidents": 54,
+      "delay_minutes": 298
+    },
+    {
+      "cause": "OPERATOR OVERSPEED",
+      "incidents": 557,
+      "delay_minutes": 295
+    },
+    {
+      "cause": "PLANT MAINTENANCE - OTHER",
+      "incidents": 216,
+      "delay_minutes": 291
+    },
+    {
+      "cause": "OPERATOR OVERSHOT PLATFORM",
+      "incidents": 79,
+      "delay_minutes": 280
+    },
+    {
+      "cause": "TRACTION POWER OR RELATED COMPONENTS FAILURE",
+      "incidents": 9,
+      "delay_minutes": 279
+    },
+    {
+      "cause": "TRACK SWITCH FAILURE - T&S RELATED PROBLEM",
+      "incidents": 38,
+      "delay_minutes": 274
+    },
+    {
+      "cause": "SUBWAY RADIO SYSTEM PROBLEMS",
+      "incidents": 60,
+      "delay_minutes": 269
+    },
+    {
+      "cause": "RC&S CONSEQUENTIAL DELAY (SECOND DELAY SAME FAULT - NO INTERVENTION)",
+      "incidents": 51,
+      "delay_minutes": 254
+    },
+    {
+      "cause": "ICE/SNOW RELATED PROBLEM",
+      "incidents": 37,
+      "delay_minutes": 239
+    },
+    {
+      "cause": "SIGNAL CONTROL",
+      "incidents": 14,
+      "delay_minutes": 234
+    },
+    {
+      "cause": "ATC RC&S EQUIPMENT",
+      "incidents": 66,
+      "delay_minutes": 230
+    },
+    {
+      "cause": "INSULATED JOINT RELATED PROBLEM",
+      "incidents": 30,
+      "delay_minutes": 225
+    },
+    {
+      "cause": "ATC OPERATOR RELATED",
+      "incidents": 76,
+      "delay_minutes": 222
+    },
+    {
+      "cause": "ATC SIGNALS OTHER",
+      "incidents": 66,
+      "delay_minutes": 222
+    },
+    {
+      "cause": "BODY",
+      "incidents": 45,
+      "delay_minutes": 213
+    },
+    {
+      "cause": "TRAINLINE SYSTEM",
+      "incidents": 15,
+      "delay_minutes": 213
+    },
+    {
+      "cause": "SIGNALS - TRACK CIRCUIT PROBLEMS",
+      "incidents": 32,
+      "delay_minutes": 203
+    },
+    {
+      "cause": "RC&S MAINTENANCE ERROR (HUMAN ERROR - NO EQUIP.FAULT)",
+      "incidents": 34,
+      "delay_minutes": 190
+    },
+    {
+      "cause": "INJURED/ILL CUSTOMER IN STATION - TRANSPORTED",
+      "incidents": 2329,
+      "delay_minutes": 183
+    },
+    {
+      "cause": "NO OPERATOR AVAILABLE",
+      "incidents": 46,
+      "delay_minutes": 180
+    },
+    {
+      "cause": "ELECTRICAL - OTHER",
+      "incidents": 36,
+      "delay_minutes": 172
+    },
+    {
+      "cause": "SIGNALS - OTHER",
+      "incidents": 33,
+      "delay_minutes": 167
+    },
+    {
+      "cause": "SUPERVISORY ERROR",
+      "incidents": 32,
+      "delay_minutes": 161
+    },
+    {
+      "cause": "INJURED/ILL CUSTOMER IN STATION - MEDICAL AID REFUSED",
+      "incidents": 1095,
+      "delay_minutes": 155
+    },
+    {
+      "cause": "DEBRIS AT TRACK LEVEL - CONTROLLABLE",
+      "incidents": 17,
+      "delay_minutes": 148
+    },
+    {
+      "cause": "AIR CONDITIONING",
+      "incidents": 16,
+      "delay_minutes": 124
+    },
+    {
+      "cause": "YARD/CARHOUSE RELATED PROBLEMS",
+      "incidents": 32,
+      "delay_minutes": 123
+    },
+    {
+      "cause": "SUBWAY CAR RADIO FAULT",
+      "incidents": 23,
+      "delay_minutes": 115
+    },
+    {
+      "cause": "TRAINING DEPT. RELATED DELAYS",
+      "incidents": 35,
+      "delay_minutes": 114
+    },
+    {
+      "cause": "DOORS OPEN IN ERROR",
+      "incidents": 4,
+      "delay_minutes": 114
+    },
+    {
+      "cause": "SIGNALS ZONE CONTROLLER FAILURE",
+      "incidents": 4,
+      "delay_minutes": 103
+    },
+    {
+      "cause": "SIGNALS TRACK WEATHER RELATED ISSUES",
+      "incidents": 28,
+      "delay_minutes": 100
+    },
+    {
+      "cause": "TWO DRUM SWITCH KEYS IN TRAIN",
+      "incidents": 29,
+      "delay_minutes": 96
+    },
+    {
+      "cause": "ASSAULT / SEXUAL",
+      "incidents": 56,
+      "delay_minutes": 95
+    },
+    {
+      "cause": "EXTERNAL POWER FAILURE",
+      "incidents": 41,
+      "delay_minutes": 87
+    },
+    {
+      "cause": "ELECTRICAL - WORK ZONE PROBLEMS",
+      "incidents": 5,
+      "delay_minutes": 84
+    },
+    {
+      "cause": "FIRE/SMOKE PLAN A",
+      "incidents": 9,
+      "delay_minutes": 81
+    },
+    {
+      "cause": "DIVISIONAL CLERK RELATED",
+      "incidents": 21,
+      "delay_minutes": 79
+    },
+    {
+      "cause": "CENTRAL OFFICE SIGNALLING SYSTEM (CSS)",
+      "incidents": 18,
+      "delay_minutes": 79
+    },
+    {
+      "cause": "SIGNAL PROBLEM - NO TROUBLE FOUND",
+      "incidents": 38,
+      "delay_minutes": 76
+    },
+    {
+      "cause": "NO EQUIPMENT AVAILABLE",
+      "incidents": 14,
+      "delay_minutes": 67
+    },
+    {
+      "cause": "INJURED EMPLOYEES",
+      "incidents": 199,
+      "delay_minutes": 65
+    },
+    {
+      "cause": "MAINLINE STORAGE",
+      "incidents": 14,
+      "delay_minutes": 57
+    },
+    {
+      "cause": "BOMB THREAT",
+      "incidents": 3,
+      "delay_minutes": 55
+    },
+    {
+      "cause": "WORK REFUSAL",
+      "incidents": 37,
+      "delay_minutes": 54
+    },
+    {
+      "cause": "COMPRESSED AIR",
+      "incidents": 15,
+      "delay_minutes": 54
+    },
+    {
+      "cause": "T&S OPERATOR RELATED PROBLEM (VIOLATIONS, OVERSHOOTS, ETC.)",
+      "incidents": 29,
+      "delay_minutes": 52
+    },
+    {
+      "cause": "SCADA RELATED PROBLEMS",
+      "incidents": 4,
+      "delay_minutes": 51
+    },
+    {
+      "cause": "T&S CONTRACTOR PROBLEMS",
+      "incidents": 3,
+      "delay_minutes": 46
+    },
+    {
+      "cause": "WORK ZONE PROBLEMS - SIGNALS",
+      "incidents": 16,
+      "delay_minutes": 45
+    },
+    {
+      "cause": "FIRE SMOKE PLAN C",
+      "incidents": 21,
+      "delay_minutes": 43
+    },
+    {
+      "cause": "NO OPERATOR AVAILABLE - NON ESA RELATED",
+      "incidents": 11,
+      "delay_minutes": 43
+    },
+    {
+      "cause": "ROBBERY",
+      "incidents": 36,
+      "delay_minutes": 42
+    },
+    {
+      "cause": "TRUCKS",
+      "incidents": 7,
+      "delay_minutes": 42
+    },
+    {
+      "cause": "ENGINEEERING & CONSTRUCTION RELATED",
+      "incidents": 2,
+      "delay_minutes": 42
+    },
+    {
+      "cause": "LOW VOLTAGE",
+      "incidents": 5,
+      "delay_minutes": 38
+    },
+    {
+      "cause": "CONTROLS IMPROPERLY BLOWN DOWN",
+      "incidents": 10,
+      "delay_minutes": 36
+    },
+    {
+      "cause": "TORONTO ROCKET CAB DOORS",
+      "incidents": 6,
+      "delay_minutes": 36
+    },
+    {
+      "cause": "ALTERNATING CURRENT",
+      "incidents": 9,
+      "delay_minutes": 34
+    },
+    {
+      "cause": "SUSPICIOUS PACKAGE",
+      "incidents": 6,
+      "delay_minutes": 31
+    },
+    {
+      "cause": "RC&S OPERATOR ERROR (SIGNAL VIOLATION, PLATFORM OVERSHOOT, ETC)",
+      "incidents": 25,
+      "delay_minutes": 29
+    },
+    {
+      "cause": "COUPLERS",
+      "incidents": 4,
+      "delay_minutes": 29
+    },
+    {
+      "cause": "WARNING/ALARM SYSTEM/PASSENGER SECURITY SYSTEM",
+      "incidents": 9,
+      "delay_minutes": 27
+    },
+    {
+      "cause": "OPTO OPERATOR RELATED",
+      "incidents": 7,
+      "delay_minutes": 26
+    },
+    {
+      "cause": "ECD/LINE MECHANIC RELATED",
+      "incidents": 6,
+      "delay_minutes": 25
+    },
+    {
+      "cause": "ELECTRICAL - MAINTENANCE ERROR",
+      "incidents": 6,
+      "delay_minutes": 23
+    },
+    {
+      "cause": "TRACK CIRCUIT PROBLEMS RE:DEFECTIVE BOLTS/BONDING",
+      "incidents": 7,
+      "delay_minutes": 17
+    },
+    {
+      "cause": "FIRE/SMOKE PLAN B - SOURCE EXTERNAL TO TTC",
+      "incidents": 6,
+      "delay_minutes": 17
+    },
+    {
+      "cause": "Unmapped (TFPD)",
+      "incidents": 1,
+      "delay_minutes": 14
+    },
+    {
+      "cause": "UNAUTHORIZED TRAIN REVERSAL BY OPERATOR",
+      "incidents": 3,
+      "delay_minutes": 13
+    },
+    {
+      "cause": "OPTO (RC&S) NON-TRAIN DOOR MONITORING",
+      "incidents": 3,
+      "delay_minutes": 12
+    },
+    {
+      "cause": "TRACTION MOTORS",
+      "incidents": 3,
+      "delay_minutes": 10
+    },
+    {
+      "cause": "SIGNALS - CONTROL PROBLEM - TRACK",
+      "incidents": 6,
+      "delay_minutes": 9
+    },
+    {
+      "cause": "LIGHTING SYSTEMS",
+      "incidents": 2,
+      "delay_minutes": 8
+    },
+    {
+      "cause": "CLOSURES - PLANNED",
+      "incidents": 238,
+      "delay_minutes": 4
+    },
+    {
+      "cause": "SMART IO FAILURE",
+      "incidents": 4,
+      "delay_minutes": 3
+    },
+    {
+      "cause": "NO COLLECTOR AVAILABLE",
+      "incidents": 1047,
+      "delay_minutes": 0
+    },
+    {
+      "cause": "NO COLLECTOR AVAILABLE - NON ESA RELATED",
+      "incidents": 939,
+      "delay_minutes": 0
+    },
+    {
+      "cause": "ANY ESCL. OR ELEV. INCIDENT - TRANSPORTED OR MEDICAL AID DECLINED",
+      "incidents": 819,
+      "delay_minutes": 0
+    },
+    {
+      "cause": "ANY STAIRWAY INCIDENT - TRANSPORTED OR MEDICAL AID DECLINED",
+      "incidents": 324,
+      "delay_minutes": 0
+    },
+    {
+      "cause": "MISCELLANEOUS GENERAL SUBWAY LINE DELAYS -",
+      "incidents": 26,
+      "delay_minutes": 0
+    },
+    {
+      "cause": "STORM TRAINS",
+      "incidents": 20,
+      "delay_minutes": 0
+    },
+    {
+      "cause": "Unmapped (XXXXX)",
+      "incidents": 8,
+      "delay_minutes": 0
+    },
+    {
+      "cause": "NO OPERATOR/CREW AVAILABLE - E.S.A. RELATED",
+      "incidents": 2,
+      "delay_minutes": 0
+    },
+    {
+      "cause": "CENTRAL LOGIC CONTROLLER FAILURE",
+      "incidents": 1,
+      "delay_minutes": 0
+    },
+    {
+      "cause": "DATA COMMUNICATIONS SYSTEM FAILURE",
+      "incidents": 1,
+      "delay_minutes": 0
+    },
+    {
+      "cause": "T&S RELATED PROBLEM - NO TROUBLE FOUND",
+      "incidents": 1,
+      "delay_minutes": 0
+    }
+  ],
+  "by_line": [
+    {
+      "line": "Line 1 (YU)",
+      "incidents": 13087,
+      "delay_minutes": 40232
+    },
+    {
+      "line": "Line 2 (BD)",
+      "incidents": 11146,
+      "delay_minutes": 27404
+    },
+    {
+      "line": "Line 4 (SHP)",
+      "incidents": 1065,
+      "delay_minutes": 3115
+    },
+    {
+      "line": "Other / unclassified",
+      "incidents": 8,
+      "delay_minutes": 14
+    },
+    {
+      "line": "Unknown",
+      "incidents": 77,
+      "delay_minutes": 3
+    },
+    {
+      "line": "Multiple lines",
+      "incidents": 354,
+      "delay_minutes": 0
+    }
+  ],
+  "by_hour": [
+    {
+      "hour": 5,
+      "incidents": 1187,
+      "delay_minutes": 4463
+    },
+    {
+      "hour": 16,
+      "incidents": 1406,
+      "delay_minutes": 4307
+    },
+    {
+      "hour": 6,
+      "incidents": 1170,
+      "delay_minutes": 4134
+    },
+    {
+      "hour": 18,
+      "incidents": 1404,
+      "delay_minutes": 3966
+    },
+    {
+      "hour": 17,
+      "incidents": 1427,
+      "delay_minutes": 3957
+    },
+    {
+      "hour": 8,
+      "incidents": 1388,
+      "delay_minutes": 3853
+    },
+    {
+      "hour": 9,
+      "incidents": 1068,
+      "delay_minutes": 3706
+    },
+    {
+      "hour": 11,
+      "incidents": 1121,
+      "delay_minutes": 3531
+    },
+    {
+      "hour": 22,
+      "incidents": 1514,
+      "delay_minutes": 3381
+    },
+    {
+      "hour": 15,
+      "incidents": 1248,
+      "delay_minutes": 3375
+    },
+    {
+      "hour": 12,
+      "incidents": 1141,
+      "delay_minutes": 3352
+    },
+    {
+      "hour": 19,
+      "incidents": 1068,
+      "delay_minutes": 3270
+    },
+    {
+      "hour": 14,
+      "incidents": 1197,
+      "delay_minutes": 3120
+    },
+    {
+      "hour": 23,
+      "incidents": 1237,
+      "delay_minutes": 3032
+    },
+    {
+      "hour": 20,
+      "incidents": 1082,
+      "delay_minutes": 3018
+    },
+    {
+      "hour": 13,
+      "incidents": 1177,
+      "delay_minutes": 2965
+    },
+    {
+      "hour": 21,
+      "incidents": 1087,
+      "delay_minutes": 2820
+    },
+    {
+      "hour": 10,
+      "incidents": 977,
+      "delay_minutes": 2707
+    },
+    {
+      "hour": 7,
+      "incidents": 1101,
+      "delay_minutes": 2610
+    },
+    {
+      "hour": 1,
+      "incidents": 950,
+      "delay_minutes": 2148
+    },
+    {
+      "hour": 0,
+      "incidents": 866,
+      "delay_minutes": 2109
+    },
+    {
+      "hour": 2,
+      "incidents": 605,
+      "delay_minutes": 475
+    },
+    {
+      "hour": 4,
+      "incidents": 152,
+      "delay_minutes": 409
+    },
+    {
+      "hour": 3,
+      "incidents": 164,
+      "delay_minutes": 60
+    }
+  ],
+  "by_weekday_hour": [
+    {
+      "weekday": "Friday",
+      "hour": 0,
+      "incidents": 130,
+      "delay_minutes": 236
+    },
+    {
+      "weekday": "Friday",
+      "hour": 1,
+      "incidents": 142,
+      "delay_minutes": 332
+    },
+    {
+      "weekday": "Friday",
+      "hour": 2,
+      "incidents": 79,
+      "delay_minutes": 18
+    },
+    {
+      "weekday": "Friday",
+      "hour": 3,
+      "incidents": 34,
+      "delay_minutes": 0
+    },
+    {
+      "weekday": "Friday",
+      "hour": 4,
+      "incidents": 25,
+      "delay_minutes": 4
+    },
+    {
+      "weekday": "Friday",
+      "hour": 5,
+      "incidents": 226,
+      "delay_minutes": 673
+    },
+    {
+      "weekday": "Friday",
+      "hour": 6,
+      "incidents": 177,
+      "delay_minutes": 451
+    },
+    {
+      "weekday": "Friday",
+      "hour": 7,
+      "incidents": 179,
+      "delay_minutes": 369
+    },
+    {
+      "weekday": "Friday",
+      "hour": 8,
+      "incidents": 169,
+      "delay_minutes": 518
+    },
+    {
+      "weekday": "Friday",
+      "hour": 9,
+      "incidents": 140,
+      "delay_minutes": 467
+    },
+    {
+      "weekday": "Friday",
+      "hour": 10,
+      "incidents": 138,
+      "delay_minutes": 340
+    },
+    {
+      "weekday": "Friday",
+      "hour": 11,
+      "incidents": 167,
+      "delay_minutes": 354
+    },
+    {
+      "weekday": "Friday",
+      "hour": 12,
+      "incidents": 212,
+      "delay_minutes": 385
+    },
+    {
+      "weekday": "Friday",
+      "hour": 13,
+      "incidents": 172,
+      "delay_minutes": 373
+    },
+    {
+      "weekday": "Friday",
+      "hour": 14,
+      "incidents": 197,
+      "delay_minutes": 490
+    },
+    {
+      "weekday": "Friday",
+      "hour": 15,
+      "incidents": 184,
+      "delay_minutes": 477
+    },
+    {
+      "weekday": "Friday",
+      "hour": 16,
+      "incidents": 180,
+      "delay_minutes": 664
+    },
+    {
+      "weekday": "Friday",
+      "hour": 17,
+      "incidents": 217,
+      "delay_minutes": 532
+    },
+    {
+      "weekday": "Friday",
+      "hour": 18,
+      "incidents": 199,
+      "delay_minutes": 448
+    },
+    {
+      "weekday": "Friday",
+      "hour": 19,
+      "incidents": 153,
+      "delay_minutes": 453
+    },
+    {
+      "weekday": "Friday",
+      "hour": 20,
+      "incidents": 150,
+      "delay_minutes": 444
+    },
+    {
+      "weekday": "Friday",
+      "hour": 21,
+      "incidents": 180,
+      "delay_minutes": 604
+    },
+    {
+      "weekday": "Friday",
+      "hour": 22,
+      "incidents": 234,
+      "delay_minutes": 596
+    },
+    {
+      "weekday": "Friday",
+      "hour": 23,
+      "incidents": 212,
+      "delay_minutes": 603
+    },
+    {
+      "weekday": "Monday",
+      "hour": 0,
+      "incidents": 106,
+      "delay_minutes": 289
+    },
+    {
+      "weekday": "Monday",
+      "hour": 1,
+      "incidents": 123,
+      "delay_minutes": 458
+    },
+    {
+      "weekday": "Monday",
+      "hour": 2,
+      "incidents": 84,
+      "delay_minutes": 75
+    },
+    {
+      "weekday": "Monday",
+      "hour": 3,
+      "incidents": 33,
+      "delay_minutes": 0
+    },
+    {
+      "weekday": "Monday",
+      "hour": 4,
+      "incidents": 34,
+      "delay_minutes": 5
+    },
+    {
+      "weekday": "Monday",
+      "hour": 5,
+      "incidents": 215,
+      "delay_minutes": 902
+    },
+    {
+      "weekday": "Monday",
+      "hour": 6,
+      "incidents": 224,
+      "delay_minutes": 763
+    },
+    {
+      "weekday": "Monday",
+      "hour": 7,
+      "incidents": 174,
+      "delay_minutes": 335
+    },
+    {
+      "weekday": "Monday",
+      "hour": 8,
+      "incidents": 229,
+      "delay_minutes": 579
+    },
+    {
+      "weekday": "Monday",
+      "hour": 9,
+      "incidents": 172,
+      "delay_minutes": 389
+    },
+    {
+      "weekday": "Monday",
+      "hour": 10,
+      "incidents": 140,
+      "delay_minutes": 342
+    },
+    {
+      "weekday": "Monday",
+      "hour": 11,
+      "incidents": 142,
+      "delay_minutes": 362
+    },
+    {
+      "weekday": "Monday",
+      "hour": 12,
+      "incidents": 184,
+      "delay_minutes": 506
+    },
+    {
+      "weekday": "Monday",
+      "hour": 13,
+      "incidents": 175,
+      "delay_minutes": 410
+    },
+    {
+      "weekday": "Monday",
+      "hour": 14,
+      "incidents": 184,
+      "delay_minutes": 601
+    },
+    {
+      "weekday": "Monday",
+      "hour": 15,
+      "incidents": 195,
+      "delay_minutes": 510
+    },
+    {
+      "weekday": "Monday",
+      "hour": 16,
+      "incidents": 204,
+      "delay_minutes": 455
+    },
+    {
+      "weekday": "Monday",
+      "hour": 17,
+      "incidents": 227,
+      "delay_minutes": 637
+    },
+    {
+      "weekday": "Monday",
+      "hour": 18,
+      "incidents": 207,
+      "delay_minutes": 503
+    },
+    {
+      "weekday": "Monday",
+      "hour": 19,
+      "incidents": 139,
+      "delay_minutes": 339
+    },
+    {
+      "weekday": "Monday",
+      "hour": 20,
+      "incidents": 148,
+      "delay_minutes": 432
+    },
+    {
+      "weekday": "Monday",
+      "hour": 21,
+      "incidents": 144,
+      "delay_minutes": 354
+    },
+    {
+      "weekday": "Monday",
+      "hour": 22,
+      "incidents": 203,
+      "delay_minutes": 421
+    },
+    {
+      "weekday": "Monday",
+      "hour": 23,
+      "incidents": 196,
+      "delay_minutes": 428
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 0,
+      "incidents": 119,
+      "delay_minutes": 275
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 1,
+      "incidents": 148,
+      "delay_minutes": 215
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 2,
+      "incidents": 99,
+      "delay_minutes": 109
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 3,
+      "incidents": 20,
+      "delay_minutes": 0
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 4,
+      "incidents": 13,
+      "delay_minutes": 0
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 5,
+      "incidents": 186,
+      "delay_minutes": 382
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 6,
+      "incidents": 146,
+      "delay_minutes": 688
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 7,
+      "incidents": 84,
+      "delay_minutes": 189
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 8,
+      "incidents": 100,
+      "delay_minutes": 161
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 9,
+      "incidents": 112,
+      "delay_minutes": 266
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 10,
+      "incidents": 105,
+      "delay_minutes": 294
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 11,
+      "incidents": 190,
+      "delay_minutes": 322
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 12,
+      "incidents": 133,
+      "delay_minutes": 682
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 13,
+      "incidents": 174,
+      "delay_minutes": 539
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 14,
+      "incidents": 158,
+      "delay_minutes": 424
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 15,
+      "incidents": 140,
+      "delay_minutes": 456
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 16,
+      "incidents": 146,
+      "delay_minutes": 489
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 17,
+      "incidents": 159,
+      "delay_minutes": 331
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 18,
+      "incidents": 190,
+      "delay_minutes": 461
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 19,
+      "incidents": 145,
+      "delay_minutes": 400
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 20,
+      "incidents": 155,
+      "delay_minutes": 361
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 21,
+      "incidents": 140,
+      "delay_minutes": 362
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 22,
+      "incidents": 219,
+      "delay_minutes": 563
+    },
+    {
+      "weekday": "Saturday",
+      "hour": 23,
+      "incidents": 166,
+      "delay_minutes": 395
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 0,
+      "incidents": 121,
+      "delay_minutes": 284
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 1,
+      "incidents": 133,
+      "delay_minutes": 334
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 2,
+      "incidents": 89,
+      "delay_minutes": 32
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 3,
+      "incidents": 18,
+      "delay_minutes": 32
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 4,
+      "incidents": 9,
+      "delay_minutes": 0
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 5,
+      "incidents": 24,
+      "delay_minutes": 40
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 6,
+      "incidents": 17,
+      "delay_minutes": 4
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 7,
+      "incidents": 134,
+      "delay_minutes": 345
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 8,
+      "incidents": 244,
+      "delay_minutes": 1072
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 9,
+      "incidents": 122,
+      "delay_minutes": 1171
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 10,
+      "incidents": 129,
+      "delay_minutes": 505
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 11,
+      "incidents": 173,
+      "delay_minutes": 1196
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 12,
+      "incidents": 109,
+      "delay_minutes": 225
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 13,
+      "incidents": 146,
+      "delay_minutes": 258
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 14,
+      "incidents": 146,
+      "delay_minutes": 184
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 15,
+      "incidents": 160,
+      "delay_minutes": 333
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 16,
+      "incidents": 170,
+      "delay_minutes": 713
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 17,
+      "incidents": 152,
+      "delay_minutes": 413
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 18,
+      "incidents": 151,
+      "delay_minutes": 385
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 19,
+      "incidents": 135,
+      "delay_minutes": 336
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 20,
+      "incidents": 109,
+      "delay_minutes": 239
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 21,
+      "incidents": 137,
+      "delay_minutes": 381
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 22,
+      "incidents": 198,
+      "delay_minutes": 458
+    },
+    {
+      "weekday": "Sunday",
+      "hour": 23,
+      "incidents": 118,
+      "delay_minutes": 496
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 0,
+      "incidents": 134,
+      "delay_minutes": 382
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 1,
+      "incidents": 133,
+      "delay_minutes": 379
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 2,
+      "incidents": 85,
+      "delay_minutes": 85
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 3,
+      "incidents": 15,
+      "delay_minutes": 0
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 4,
+      "incidents": 27,
+      "delay_minutes": 33
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 5,
+      "incidents": 196,
+      "delay_minutes": 807
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 6,
+      "incidents": 183,
+      "delay_minutes": 419
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 7,
+      "incidents": 182,
+      "delay_minutes": 427
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 8,
+      "incidents": 223,
+      "delay_minutes": 520
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 9,
+      "incidents": 169,
+      "delay_minutes": 472
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 10,
+      "incidents": 166,
+      "delay_minutes": 446
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 11,
+      "incidents": 140,
+      "delay_minutes": 304
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 12,
+      "incidents": 154,
+      "delay_minutes": 485
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 13,
+      "incidents": 161,
+      "delay_minutes": 387
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 14,
+      "incidents": 172,
+      "delay_minutes": 399
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 15,
+      "incidents": 183,
+      "delay_minutes": 479
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 16,
+      "incidents": 248,
+      "delay_minutes": 790
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 17,
+      "incidents": 221,
+      "delay_minutes": 730
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 18,
+      "incidents": 224,
+      "delay_minutes": 604
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 19,
+      "incidents": 168,
+      "delay_minutes": 542
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 20,
+      "incidents": 163,
+      "delay_minutes": 504
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 21,
+      "incidents": 152,
+      "delay_minutes": 381
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 22,
+      "incidents": 236,
+      "delay_minutes": 435
+    },
+    {
+      "weekday": "Thursday",
+      "hour": 23,
+      "incidents": 181,
+      "delay_minutes": 439
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 0,
+      "incidents": 120,
+      "delay_minutes": 270
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 1,
+      "incidents": 129,
+      "delay_minutes": 222
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 2,
+      "incidents": 71,
+      "delay_minutes": 76
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 3,
+      "incidents": 22,
+      "delay_minutes": 18
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 4,
+      "incidents": 24,
+      "delay_minutes": 3
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 5,
+      "incidents": 174,
+      "delay_minutes": 1078
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 6,
+      "incidents": 200,
+      "delay_minutes": 792
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 7,
+      "incidents": 165,
+      "delay_minutes": 475
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 8,
+      "incidents": 203,
+      "delay_minutes": 522
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 9,
+      "incidents": 181,
+      "delay_minutes": 412
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 10,
+      "incidents": 152,
+      "delay_minutes": 321
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 11,
+      "incidents": 139,
+      "delay_minutes": 407
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 12,
+      "incidents": 189,
+      "delay_minutes": 692
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 13,
+      "incidents": 172,
+      "delay_minutes": 457
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 14,
+      "incidents": 147,
+      "delay_minutes": 334
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 15,
+      "incidents": 177,
+      "delay_minutes": 524
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 16,
+      "incidents": 228,
+      "delay_minutes": 591
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 17,
+      "incidents": 228,
+      "delay_minutes": 663
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 18,
+      "incidents": 209,
+      "delay_minutes": 467
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 19,
+      "incidents": 150,
+      "delay_minutes": 790
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 20,
+      "incidents": 185,
+      "delay_minutes": 548
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 21,
+      "incidents": 163,
+      "delay_minutes": 344
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 22,
+      "incidents": 211,
+      "delay_minutes": 492
+    },
+    {
+      "weekday": "Tuesday",
+      "hour": 23,
+      "incidents": 175,
+      "delay_minutes": 350
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 0,
+      "incidents": 136,
+      "delay_minutes": 373
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 1,
+      "incidents": 142,
+      "delay_minutes": 208
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 2,
+      "incidents": 98,
+      "delay_minutes": 80
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 3,
+      "incidents": 22,
+      "delay_minutes": 10
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 4,
+      "incidents": 20,
+      "delay_minutes": 364
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 5,
+      "incidents": 166,
+      "delay_minutes": 581
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 6,
+      "incidents": 223,
+      "delay_minutes": 1017
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 7,
+      "incidents": 183,
+      "delay_minutes": 470
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 8,
+      "incidents": 220,
+      "delay_minutes": 481
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 9,
+      "incidents": 172,
+      "delay_minutes": 529
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 10,
+      "incidents": 147,
+      "delay_minutes": 459
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 11,
+      "incidents": 170,
+      "delay_minutes": 586
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 12,
+      "incidents": 160,
+      "delay_minutes": 377
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 13,
+      "incidents": 177,
+      "delay_minutes": 541
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 14,
+      "incidents": 193,
+      "delay_minutes": 688
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 15,
+      "incidents": 209,
+      "delay_minutes": 596
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 16,
+      "incidents": 230,
+      "delay_minutes": 605
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 17,
+      "incidents": 223,
+      "delay_minutes": 651
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 18,
+      "incidents": 224,
+      "delay_minutes": 1098
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 19,
+      "incidents": 178,
+      "delay_minutes": 410
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 20,
+      "incidents": 172,
+      "delay_minutes": 490
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 21,
+      "incidents": 171,
+      "delay_minutes": 394
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 22,
+      "incidents": 213,
+      "delay_minutes": 416
+    },
+    {
+      "weekday": "Wednesday",
+      "hour": 23,
+      "incidents": 189,
+      "delay_minutes": 321
+    }
+  ]
+}
