@@ -13,6 +13,24 @@ Which recorded subway incidents accounted for the most delay minutes in 2025? Th
 
 The [full findings report](reports/findings.md) includes the line comparison, day/hour heatmap, cleaning decisions, and interpretation limits.
 
+## Extension: statistical tests and delay prediction
+
+A separate module, `ttc_modeling.py`, adds hypothesis tests and a classifier on the same snapshot without changing the findings above. Full write-up: [reports/modeling/modeling_report.md](reports/modeling/modeling_report.md).
+
+- **Chi-square test:** Line 1 had a higher share of incidents with a delay (38.6%) than Lines 2 and 4 (33.1%); p < 0.001, but Cramér's V = 0.058, a weak association.
+- **Mann-Whitney U test:** among delayed incidents, weekday peak-hour delays were slightly *shorter* (median 4 vs. 5 minutes; rank-biserial r = -0.18).
+- **Prediction:** logistic regression and a random forest predict whether an incident delayed service, trained on January-September and tested on October-December 2025. Logistic regression reached **0.871 ROC AUC** and **78.8% accuracy** against a **63.3%** always-"no delay" baseline (precision 71.4%, recall 70.5%). The random forest did no better (AUC 0.870), so the interpretable model is preferred.
+- **Drivers:** the cause code carries almost all of the signal; without it, test AUC drops to 0.584. Track, vehicle and on-train incidents usually hold trains, while station-only events rarely do.
+- **Leakage check:** `Bound`, `Vehicle` and `Min Gap` are recorded mostly when a train is held, so they are excluded from the features.
+
+![ROC curve and permutation importance](reports/modeling/figures/model_evaluation.png)
+
+```bash
+.venv/bin/python ttc_modeling.py
+```
+
+Results are associations in observational data. The data has no weather, ridership or service-frequency fields, and cause codes may be finalized after an incident.
+
 ## Run from a clean checkout
 
 Use Python 3.10 or newer. The committed data files are a fixed 2025 snapshot, so running the analysis does not require a network connection.
@@ -24,7 +42,7 @@ python3 -m venv .venv
 .venv/bin/python -m unittest discover -s tests -v
 ```
 
-The analysis verifies both snapshot checksums before reading them, then writes `reports/summary.json`, `reports/findings.md`, and three PNG charts. `fetch_snapshot.py` is an optional download script for building a new snapshot from the City of Toronto's live CSVs. Because the live data can change, rerunning that download can change the input checksum and findings.
+The analysis verifies both snapshot checksums before reading them, then writes `reports/summary.json`, `reports/findings.md`, and three PNG charts. `ttc_modeling.py` writes `reports/modeling/` (results JSON, report, and one chart). `fetch_snapshot.py` is an optional download script for building a new snapshot from the City of Toronto's live CSVs. Because the live data can change, rerunning that download can change the input checksum and findings.
 
 ## Method and data quality
 

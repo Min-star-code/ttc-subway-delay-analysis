@@ -1,0 +1,479 @@
+{
+  "split": {
+    "train_period": "2025-01-01 to 2025-09-30",
+    "test_period": "2025-10-01 to 2025-12-31",
+    "train_rows": 19253,
+    "test_rows": 6484,
+    "train_delayed_share": 0.3487768140030125,
+    "test_delayed_share": 0.36705737199259714
+  },
+  "leakage_check": {
+    "delay_rate_blank_bound": 0.00949367088607595,
+    "delay_rate_with_bound": 0.5539152365135018,
+    "delay_rate_vehicle_zero": 0.018257645968489344,
+    "delay_rate_vehicle_known": 0.5953034053656252
+  },
+  "chi_square_line": {
+    "n": 25298,
+    "chi2": 85.70888530563542,
+    "dof": 2,
+    "p_value": 2.4465383671018986e-19,
+    "cramers_v": 0.05820627801436893,
+    "min_expected_count": 382.7988378527947,
+    "delay_rate_by_line": {
+      "Line 1 (YU)": 0.3864139986245893,
+      "Line 2 (BD)": 0.33052216041629284,
+      "Line 4 (SHP)": 0.3305164319248826
+    }
+  },
+  "mann_whitney_peak": {
+    "n_peak": 3281,
+    "n_off_peak": 5814,
+    "median_peak": 4.0,
+    "median_off_peak": 5.0,
+    "mean_peak": 6.8366351722035965,
+    "mean_off_peak": 8.31389748882009,
+    "u_statistic": 7795608.5,
+    "p_value": 5.6323126745525565e-49,
+    "prob_peak_longer": 0.40866624057559203,
+    "rank_biserial": -0.18266751884881594
+  },
+  "baseline": {
+    "predicted_class": 0,
+    "train_accuracy": 0.6512231859969875,
+    "test_accuracy": 0.6329426280074029
+  },
+  "models": {
+    "logistic_regression": {
+      "train": {
+        "accuracy": 0.8004466836337194,
+        "precision": 0.7234406595115881,
+        "recall": 0.6926284437825764,
+        "f1": 0.7076993304930006,
+        "roc_auc": 0.8857884956018143,
+        "confusion_matrix": {
+          "tn": 10760,
+          "fp": 1778,
+          "fn": 2064,
+          "tp": 4651
+        }
+      },
+      "test": {
+        "accuracy": 0.7882479950647748,
+        "precision": 0.7141641854529988,
+        "recall": 0.7054621848739496,
+        "f1": 0.7097865144789685,
+        "roc_auc": 0.8705162620603797,
+        "confusion_matrix": {
+          "tn": 3432,
+          "fp": 672,
+          "fn": 701,
+          "tp": 1679
+        }
+      }
+    },
+    "random_forest": {
+      "train": {
+        "accuracy": 0.8164441905157638,
+        "precision": 0.7486321713303111,
+        "recall": 0.7131794489947878,
+        "f1": 0.7304758999389872,
+        "roc_auc": 0.9042195062824353,
+        "confusion_matrix": {
+          "tn": 10930,
+          "fp": 1608,
+          "fn": 1926,
+          "tp": 4789
+        }
+      },
+      "test": {
+        "accuracy": 0.7877853177051203,
+        "precision": 0.7158211521926053,
+        "recall": 0.6995798319327731,
+        "f1": 0.7076073098172546,
+        "roc_auc": 0.8699315691188756,
+        "confusion_matrix": {
+          "tn": 3443,
+          "fp": 661,
+          "fn": 715,
+          "tp": 1665
+        }
+      }
+    }
+  },
+  "test_auc_without_cause_code": {
+    "logistic_regression": 0.5841782253837208,
+    "random_forest": 0.57244761208577
+  },
+  "permutation_importance_lr": {
+    "line": {
+      "mean_auc_drop": 0.009307577563188984,
+      "std": 0.0015208269199704434
+    },
+    "weekday": {
+      "mean_auc_drop": -0.00010366500401334244,
+      "std": 0.00032755411321220375
+    },
+    "hour": {
+      "mean_auc_drop": 0.015386316076138041,
+      "std": 0.0017573507566915828
+    },
+    "cause_code": {
+      "mean_auc_drop": 0.33854874625288706,
+      "std": 0.006509513384007884
+    }
+  },
+  "logistic_baselines": {
+    "line": "Line 1 (YU)",
+    "weekday": "Wednesday",
+    "hour": "22",
+    "cause_code": "SUDP"
+  },
+  "logistic_odds_ratios": [
+    {
+      "feature": "cause_code_PUTR",
+      "coefficient": 3.2881,
+      "odds_ratio": 26.793
+    },
+    {
+      "feature": "cause_code_MUSAN",
+      "coefficient": 2.7271,
+      "odds_ratio": 15.2887
+    },
+    {
+      "feature": "cause_code_PUTWZ",
+      "coefficient": 2.1096,
+      "odds_ratio": 8.2446
+    },
+    {
+      "feature": "cause_code_MUDD",
+      "coefficient": 2.0603,
+      "odds_ratio": 7.8486
+    },
+    {
+      "feature": "cause_code_Other Equipment",
+      "coefficient": 2.0257,
+      "odds_ratio": 7.5814
+    },
+    {
+      "feature": "cause_code_Other Transportation",
+      "coefficient": 1.9679,
+      "odds_ratio": 7.1558
+    },
+    {
+      "feature": "cause_code_MUI",
+      "coefficient": 1.8239,
+      "odds_ratio": 6.1959
+    },
+    {
+      "feature": "cause_code_MUWEA",
+      "coefficient": 1.6107,
+      "odds_ratio": 5.0063
+    },
+    {
+      "feature": "cause_code_MUIR",
+      "coefficient": 1.4937,
+      "odds_ratio": 4.4534
+    },
+    {
+      "feature": "cause_code_TUO",
+      "coefficient": 1.3418,
+      "odds_ratio": 3.8258
+    },
+    {
+      "feature": "cause_code_Other Miscellaneous",
+      "coefficient": 1.1656,
+      "odds_ratio": 3.2078
+    },
+    {
+      "feature": "cause_code_Other Plant / infrastructure",
+      "coefficient": 0.9589,
+      "odds_ratio": 2.6087
+    },
+    {
+      "feature": "cause_code_TUMVS",
+      "coefficient": 0.9482,
+      "odds_ratio": 2.5811
+    },
+    {
+      "feature": "cause_code_SUUT",
+      "coefficient": 0.5257,
+      "odds_ratio": 1.6917
+    },
+    {
+      "feature": "cause_code_MUPAA",
+      "coefficient": 0.3779,
+      "odds_ratio": 1.4592
+    },
+    {
+      "feature": "hour_5",
+      "coefficient": 0.308,
+      "odds_ratio": 1.3608
+    },
+    {
+      "feature": "cause_code_PUOPO",
+      "coefficient": 0.2759,
+      "odds_ratio": 1.3177
+    },
+    {
+      "feature": "hour_6",
+      "coefficient": 0.2238,
+      "odds_ratio": 1.2508
+    },
+    {
+      "feature": "hour_13",
+      "coefficient": 0.2133,
+      "odds_ratio": 1.2377
+    },
+    {
+      "feature": "hour_16",
+      "coefficient": 0.2112,
+      "odds_ratio": 1.2351
+    },
+    {
+      "feature": "hour_17",
+      "coefficient": 0.2013,
+      "odds_ratio": 1.223
+    },
+    {
+      "feature": "hour_18",
+      "coefficient": 0.1787,
+      "odds_ratio": 1.1956
+    },
+    {
+      "feature": "hour_14",
+      "coefficient": 0.1761,
+      "odds_ratio": 1.1926
+    },
+    {
+      "feature": "hour_15",
+      "coefficient": 0.1759,
+      "odds_ratio": 1.1924
+    },
+    {
+      "feature": "hour_21",
+      "coefficient": 0.1719,
+      "odds_ratio": 1.1876
+    },
+    {
+      "feature": "cause_code_Other Security",
+      "coefficient": 0.1635,
+      "odds_ratio": 1.1776
+    },
+    {
+      "feature": "hour_19",
+      "coefficient": 0.1383,
+      "odds_ratio": 1.1483
+    },
+    {
+      "feature": "hour_8",
+      "coefficient": 0.0549,
+      "odds_ratio": 1.0565
+    },
+    {
+      "feature": "hour_9",
+      "coefficient": 0.0483,
+      "odds_ratio": 1.0495
+    },
+    {
+      "feature": "hour_20",
+      "coefficient": 0.0402,
+      "odds_ratio": 1.041
+    },
+    {
+      "feature": "hour_7",
+      "coefficient": 0.0288,
+      "odds_ratio": 1.0292
+    },
+    {
+      "feature": "hour_12",
+      "coefficient": 0.0088,
+      "odds_ratio": 1.0088
+    },
+    {
+      "feature": "weekday_Saturday",
+      "coefficient": -0.0313,
+      "odds_ratio": 0.9692
+    },
+    {
+      "feature": "weekday_Friday",
+      "coefficient": -0.0352,
+      "odds_ratio": 0.9654
+    },
+    {
+      "feature": "weekday_Thursday",
+      "coefficient": -0.0607,
+      "odds_ratio": 0.9411
+    },
+    {
+      "feature": "hour_11",
+      "coefficient": -0.0649,
+      "odds_ratio": 0.9371
+    },
+    {
+      "feature": "weekday_Tuesday",
+      "coefficient": -0.0857,
+      "odds_ratio": 0.9179
+    },
+    {
+      "feature": "hour_0",
+      "coefficient": -0.1208,
+      "odds_ratio": 0.8862
+    },
+    {
+      "feature": "hour_10",
+      "coefficient": -0.1257,
+      "odds_ratio": 0.8819
+    },
+    {
+      "feature": "line_Line 4 (SHP)",
+      "coefficient": -0.1364,
+      "odds_ratio": 0.8725
+    },
+    {
+      "feature": "weekday_Monday",
+      "coefficient": -0.1438,
+      "odds_ratio": 0.8661
+    },
+    {
+      "feature": "hour_23",
+      "coefficient": -0.1538,
+      "odds_ratio": 0.8574
+    },
+    {
+      "feature": "line_Line 2 (BD)",
+      "coefficient": -0.1814,
+      "odds_ratio": 0.8341
+    },
+    {
+      "feature": "weekday_Sunday",
+      "coefficient": -0.1926,
+      "odds_ratio": 0.8248
+    },
+    {
+      "feature": "line_Other / unclassified",
+      "coefficient": -0.3314,
+      "odds_ratio": 0.7179
+    },
+    {
+      "feature": "hour_1",
+      "coefficient": -0.3584,
+      "odds_ratio": 0.6988
+    },
+    {
+      "feature": "cause_code_MUO",
+      "coefficient": -0.3656,
+      "odds_ratio": 0.6938
+    },
+    {
+      "feature": "cause_code_SUG",
+      "coefficient": -0.3996,
+      "odds_ratio": 0.6706
+    },
+    {
+      "feature": "cause_code_Other Other",
+      "coefficient": -0.6565,
+      "odds_ratio": 0.5187
+    },
+    {
+      "feature": "cause_code_SUO",
+      "coefficient": -0.778,
+      "odds_ratio": 0.4593
+    },
+    {
+      "feature": "cause_code_SUAP",
+      "coefficient": -0.8681,
+      "odds_ratio": 0.4197
+    },
+    {
+      "feature": "cause_code_TUSC",
+      "coefficient": -1.4239,
+      "odds_ratio": 0.2408
+    },
+    {
+      "feature": "cause_code_EUSC",
+      "coefficient": -1.4673,
+      "odds_ratio": 0.2305
+    },
+    {
+      "feature": "cause_code_MUSC",
+      "coefficient": -1.5505,
+      "odds_ratio": 0.2122
+    },
+    {
+      "feature": "cause_code_SUAE",
+      "coefficient": -1.5875,
+      "odds_ratio": 0.2044
+    },
+    {
+      "feature": "line_Unknown",
+      "coefficient": -1.708,
+      "odds_ratio": 0.1812
+    },
+    {
+      "feature": "cause_code_PUMO",
+      "coefficient": -1.9794,
+      "odds_ratio": 0.1382
+    },
+    {
+      "feature": "hour_2",
+      "coefficient": -2.0468,
+      "odds_ratio": 0.1291
+    },
+    {
+      "feature": "cause_code_MUIE",
+      "coefficient": -2.1457,
+      "odds_ratio": 0.117
+    },
+    {
+      "feature": "hour_4",
+      "coefficient": -2.6626,
+      "odds_ratio": 0.0698
+    },
+    {
+      "feature": "hour_3",
+      "coefficient": -2.8662,
+      "odds_ratio": 0.0569
+    },
+    {
+      "feature": "cause_code_MUIRS",
+      "coefficient": -3.0698,
+      "odds_ratio": 0.0464
+    },
+    {
+      "feature": "cause_code_MUCP",
+      "coefficient": -3.5521,
+      "odds_ratio": 0.0287
+    },
+    {
+      "feature": "line_Multiple lines",
+      "coefficient": -3.636,
+      "odds_ratio": 0.0264
+    },
+    {
+      "feature": "cause_code_MUIS",
+      "coefficient": -3.7204,
+      "odds_ratio": 0.0242
+    },
+    {
+      "feature": "cause_code_PUMST",
+      "coefficient": -4.0032,
+      "odds_ratio": 0.0183
+    },
+    {
+      "feature": "cause_code_PUMEL",
+      "coefficient": -4.6577,
+      "odds_ratio": 0.0095
+    },
+    {
+      "feature": "cause_code_MUNCA",
+      "coefficient": -5.0112,
+      "odds_ratio": 0.0067
+    },
+    {
+      "feature": "cause_code_TUNCA",
+      "coefficient": -5.0449,
+      "odds_ratio": 0.0064
+    }
+  ]
+}
